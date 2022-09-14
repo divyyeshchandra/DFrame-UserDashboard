@@ -12,7 +12,7 @@ const Profile = () => {
   // const BackendUrl = process.env.REACT_APP_BACKEND_URL
 
  useEffect(() => {
-    axios.get(`https://www.dev.dframe-api.xyz/api/user/updateProfileData/${address}`).then((response) => {
+    axios.get(`https://www.dev.dframe-api.xyz/core-api/user/updateProfileData/${address}`).then((response) => {
      console.log(response.data);
      console.log(response.data.userName);
      setProfileData(response.data);

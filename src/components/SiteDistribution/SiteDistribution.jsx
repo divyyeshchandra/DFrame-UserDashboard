@@ -33,26 +33,25 @@ const SiteDistribution = () => {
 
   const assignData = (category) => {
     if(category==="sports"){
-      axios.get("http://54.167.69.158:8000/sites-distribution/sports/mbenedick4")
+      axios.get("https://www.dev.dframe-api.xyz/core-analytics/sites-distribution/sports/mbenedick4")
       .then((res)=>setData(res.data))
       .catch((err)=>console.log(err))
       // setData(data1)
       
     }else if(category==="crypto"){
-
-      axios.get("http://54.167.69.158:8000/sites-distribution/crypto/mbenedick4")
+      axios.get("https://www.dev.dframe-api.xyz/core-analytics/sites-distribution/crypto/mbenedick4")
       .then((res)=>setData(res.data))
       .catch((err)=>console.log(err))
       // setData(data1)
 
     }else if(category==="ecommerce"){
-      axios.get("http://54.167.69.158:8000/sites-distribution/ecommerce/mbenedick4")
+      axios.get("https://www.dev.dframe-api.xyz/core-analytics/sites-distribution/ecommerce/mbenedick4")
       .then((res)=>setData(res.data))
       .catch((err)=>console.log(err))
       //setData(data1)
 
     }else if(category==="social"){
-      axios.get("http://54.167.69.158:8000/sites-distribution/social/mbenedick4")
+      axios.get("https://www.dev.dframe-api.xyz/core-analytics/sites-distribution/social/mbenedick4")
       .then((res)=>setData(res.data))
       .catch((err)=>console.log(err))
       // setData(data1)

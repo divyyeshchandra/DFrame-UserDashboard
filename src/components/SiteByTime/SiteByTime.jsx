@@ -34,7 +34,7 @@ const SiteByTime = () => {
 
   const assignData= () => {
     //  if(address){ axios.get(`http://127.0.0.1:5000/top-sites-visited/${address}`).then((res)=>setData(res.data)).catch((err)=>console.log(err))}
-     if(address){ axios.get(`http://54.167.69.158:8000/sites-by-time/crannells0`).then((res)=>setData(res.data)).catch((err)=>console.log(err))}
+     if(address){ axios.get(`https://www.dev.dframe-api.xyz/core-analytics/sites-by-time/crannells0`).then((res)=>setData(res.data)).catch((err)=>console.log(err))}
     }
 
   useEffect(() => {assignData()},[]); 

@@ -33,7 +33,7 @@ const TopSiteVisited = () => {
 
   const assignData= () => {
     //  if(address){ axios.get(`http://127.0.0.1:5000/top-sites-visited/${address}`).then((res)=>setData(res.data)).catch((err)=>console.log(err))}
-     if(address){ axios.get(`http://54.167.69.158:8000/top-sites-visited/mbenedick4`).then((res)=>setData(res.data)).catch((err)=>console.log(err))}
+     if(address){ axios.get(`https://www.dev.dframe-api.xyz/core-analytics/top-sites-visited/mbenedick4`).then((res)=>setData(res.data)).catch((err)=>console.log(err))}
     }
 
   useEffect(() => {assignData()},[]); 
@@ -78,6 +78,3 @@ const TopSiteVisited = () => {
 }
 
 export default TopSiteVisited
-
-
-

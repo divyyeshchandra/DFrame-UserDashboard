@@ -31,7 +31,7 @@ const UpdateProfile = () => {
         isEmailVerified : true,
         email: email,
     };
-    axios.post(`https://www.dev.dframe-api.xyz/api/user/updateProfileData/${address}`, userData).then((response) => {
+    axios.post(`https://www.dev.dframe-api.xyz/core-api/user/updateProfileData/${address}`, userData).then((response) => {
       console.log(response.status);
       console.log(response.data);
       setProfileData({...profileData,
