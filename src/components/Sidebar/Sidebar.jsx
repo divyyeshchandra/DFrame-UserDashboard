@@ -71,7 +71,7 @@ export const Sidebar = () => {
           <p className=" ml-[7.5vw]">Site By Time</p>     
         </NavLink> 
         <NavLink to="/SiteDistribution"  className='flex flex-row ml-[-0.2vw] hover:bg-[#F3B3E9] text-[#0d21d8]'>   
-          <p className="ml-[6.6vw]">Site Distribution</p> 
+          <p className="ml-[6.7vw]">Site Distribution</p> 
         </NavLink>
         </div>)}
         </div>
